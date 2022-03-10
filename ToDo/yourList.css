@@ -1,0 +1,18 @@
+.add{
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.add:hover {
+    
+    background-color: #3e8e41;
+    box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.2);
+    
+}
+#list{
+    text-align: center;
+}

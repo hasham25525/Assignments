@@ -1,16 +1,16 @@
 
-let x = 1;
+let x = 0;
 let arr = [x];
 function YourList() {
 
     arr[x] = document.getElementById("input").value;
-    for (let x = 0; x < arr.length; x++) {
-        document.getElementById("input").value;
-        let list = x + ".    " + arr[x];
-        document.getElementById("list").innerText = list;
-    }
+
     x++;
-    document.getElementById("text1").value = "";
+    document.getElementById("input").value = "";
 
-
+    let list = 0;
+    for (let y = 0; y < arr.length; y++) {
+        list += y + ". " + arr[y] + "<br/>";
+    }
+    document.getElementById("list").innerHTML = list;
 }
